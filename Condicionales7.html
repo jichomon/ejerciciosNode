@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condicionales 7</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script>
+
+		const dato1 = prompt("Primer numero", "")
+		const nota1 = Number(dato1)
+
+		const dato2 = prompt("Segundo numero", "")
+		const nota2 = Number(dato2)
+
+		const media = (nota1 + nota2) /2;
+
+		media >5 ?
+		(
+			resultado = " Aprobada",
+			alert('Has aprobado'),
+			media > 8 ?
+				alert('sobresaliente'): null
+		)
+		:
+		(
+			resultado = " Suspendida",
+			alert('Has suspendido')
+		)
+
+		document.write(`<h3>La nota final es de ${resultado}</h3>`)
+	</script>
+</body>
+</html>
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condicionales 4</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script>
+
+		const dato1 = prompt("Primer numero", "")
+		const nota1 = Number(dato1)
+
+		const dato2 = prompt("Segundo numero", "")
+		const nota2 = Number(dato2)
+
+		const dato3 = prompt("Tercer numero", "")
+		const nota3 = Number(dato3)
+
+		const media = (nota1 + nota2 + nota3)/3;
+
+		media > 5 ?
+		(
+			resultado = " Aprobado",
+			alert('Has aprobado')
+		)
+		:
+		(
+			resultado = " Suspendido",
+			alert('Has suspendido')
+		)
+
+		document.wirte(`<h3>La nota final es de ${resultado}</h3>`)
+
+	</script>
+</body>
+</html>
+
+
